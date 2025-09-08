@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Taxi Fare App",
+			"type": "shell",
+			"command": "streamlit run /Users/devonli/Projects/Python/taxtFare/taxi_fare_app.py",
+			"args": [],
+			"isBackground": true,
+			"problemMatcher": []
+		}
+	]
+}
