@@ -1,3 +1,6 @@
+# Author: devonycli
+# Email: devonli@gmail.com
+
 import streamlit as st
 
 def calculate_taxi_fare(taxi_type, distance, waiting_time, baggage_count, animals, booking, toll):

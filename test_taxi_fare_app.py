@@ -1,3 +1,6 @@
+# Author: devonycli
+# Email: devonli@gmail.com
+
 import unittest
 from taxi_fare_app import calculate_taxi_fare
 
