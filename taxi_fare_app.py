@@ -25,7 +25,7 @@ def calculate_taxi_fare(taxi_type, distance, waiting_time, baggage_count, animal
 
     details = fare_details[taxi_type]
 
-    # Calculate the fare for distance traveled
+    # Calculate the fare for distance traveled, less than 2km
     if distance <= 2:
         distance_fare = details["initial_fare"]
     else:
